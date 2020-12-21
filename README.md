@@ -9,13 +9,13 @@ The use of this software requires:
 - Google Chrome or compatible browser, minimum version 70, ideally version 80 to 88, with the Web Serial API support activated. If the steps in the last section do not work, follow these steps:
     1. Open Google Chrome.
     2. Go to `chrome://flags` from the browser bar.
-    3. On the **Search flags** search bar, type `#enable-experimental-web-platform-features`
+    3. On the **Search flags** search bar, type `#enable-experimental-web-platform-features`.
     4. Switch the option box near **Experimental Web Platform features** from `Default` to `Enabled`.
     >Be aware that you will need to restart your browser after doing this.
     >
     >By activating experimental features, you might experience compatibility issues with certain web pages. If you are not comfortable leaving it active,
     >switch the flag back to `Disabled` after using the demo.
-- The Arduino IDE, downloadable from [here](https://www.arduino.cc/en/software).
+- The Arduino IDE, downloadable from [Arduino's web site](https://www.arduino.cc/en/software).
 
 ## Setup
 To setup the Lidar system software, follow these steps:
@@ -28,8 +28,8 @@ To setup the Lidar system software, follow these steps:
 3. Open the web interface:
     - Use the online version in [this link](https://ppereztirador.github.io/lidar_plot) or
     - Use the offline version by following these steps:
-      1. Download **lidar_plot.zip** and extract it in a folder that is easy to find.
-	  2. Go to that folder and open **index.html** in Google Chrome.
+        1. Download **lidar_plot.zip** and extract it in a folder that is easy to find.
+        2. Go to that folder and open **index.html** in Google Chrome.
 
 ## How to use the software
 The web interface connects to the Arduino board to start and stop the acquisition of data. Make sure that you have a Google Chrome browser available.
